@@ -1,0 +1,12 @@
+#toTop {
+    width:100px;
+    text-align:center;
+    padding:2px;
+    position:fixed;
+    bottom:5px; /* отступ кнопки от нижнего края страницы*/
+    right:2px;
+    cursor:pointer;
+    display:none;
+    font-size: 40px;
+    color: #ffffff;
+}
