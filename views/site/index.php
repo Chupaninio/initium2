@@ -36,7 +36,7 @@ $this->title = 'My Yii Application';
                     </div>
                     <a href="#">View more</a>
                 </figcaption>
-                
+
             </figure>
             <figure class="effect-julia">
                 <img src="../images/e-shop.jpg" alt="img22"/>
