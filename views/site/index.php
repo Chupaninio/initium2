@@ -81,14 +81,11 @@ $this->title = 'My Yii Application';
 
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">КОНТАКТЫ</h1></div>
-    <div class="container-fluid">
-        <div class="site-contact">
-            <h1><?= Html::encode($this->title) ?></h1>
-
+    <div class="container-fluid" style="color: #5ff9fc">
             <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
 
                 <div class="alert alert-success">
-                    Thank you for contacting us. We will respond to you as soon as possible.
+                    Спасибо, что связались с Нами. Ответ будет дан в ближайшее время.
                 </div>
 
                 <p>
@@ -105,8 +102,7 @@ $this->title = 'My Yii Application';
             <?php else: ?>
 
                 <p>
-                    If you have business inquiries or other questions, please fill out the following form to contact us.
-                    Thank you.
+                    Если у Вас имеются вопросы, Вы можете связаться с Нами заполнив форму ниже.
                 </p>
 
                 <div class="row">
@@ -127,7 +123,7 @@ $this->title = 'My Yii Application';
                         ]) ?>
 
                         <div class="form-group">
-                            <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                            <?= Html::submitButton('Отправить', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
                         </div>
 
                         <?php ActiveForm::end(); ?>
@@ -136,6 +132,5 @@ $this->title = 'My Yii Application';
                 </div>
 
             <?php endif; ?>
-        </div>
     </div>
 </div>
