@@ -10,8 +10,10 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
     <div class="container-fluid" style="height: 100vh; background-image: url('https://www.wylab.net/wp-content/uploads/2017/04/informatica.jpg'); color: #ffffff">
+       <div style="padding-top: 15%">
         <h1 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 100px">INITIUM</h1>
         <h2 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 65px"> НАЧАЛО ВАШЕГО ПУТИ В ВЕБ-ПРОСТРАНСТВЕ </h2>
+       </div>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">НАШИ УСЛУГИ</h1></div>
     <div class="container-fluid">
@@ -69,8 +71,45 @@ $this->title = 'My Yii Application';
         </div>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОРТФОЛИО</h1></div>
-    <div class="container-fluid" style="height: 90vh;">
-
+    <div class="container-fluid">
+       <div class="row" style="margin-left: 30px">
+           <div class="col-md-4">
+               <div class="grid">
+                   <figure class="effect-sadie">
+                       <img src="../images/atl.jpg" alt="img02"/>
+                       <figcaption>
+                           <h2>Atlant</h2>
+                           <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                           <a href="#">View more</a>
+                       </figcaption>
+                   </figure>
+                </div>
+           </div>
+           <div class="col-md-4">
+               <div class="grid">
+                   <figure class="effect-sadie">
+                       <img src="../images/psg.jpg" alt="img02"/>
+                       <figcaption>
+                           <h2>PSGroup</h2>
+                           <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                           <a href="#">View more</a>
+                       </figcaption>
+                   </figure>
+               </div>
+           </div>
+           <div class="col-md-4">
+               <div class="grid">
+                   <figure class="effect-sadie">
+                       <img src="../images/slt.jpg" alt="img02"/>
+                       <figcaption>
+                           <h2>Starlinetelecom</h2>
+                           <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                           <a href="#">View more</a>
+                       </figcaption>
+                   </figure>
+               </div>
+           </div>
+       </div>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">О НАС</h1></div>
     <div class="container-fluid" style="height: 90vh;">
