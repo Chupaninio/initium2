@@ -17,15 +17,20 @@ $this->title = 'My Yii Application';
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">НАШИ УСЛУГИ</h1></div>
     <div class="container-fluid">
+        <div class="text-center">
+            <p style="color: white;">
+                Мы предоставляем услуги по разработке сайтов различной степени сложности. Воспользовавшись нашими услугами, Вы обеспечите себе качественно выполненный сайт в поставленный срок.
+            </p>
+        </div>
         <div class="grid">
             <figure class="effect-julia">
                 <img src="../images/landing.jpg" alt="img21"/>
                 <figcaption>
                     <h2>Landing <span>page</span></h2>
                     <div>
-                        <p>Julia dances in the deep dark</p>
-                        <p>She loves the smell of the ocean</p>
-                        <p>And dives into the morning light</p>
+                        <p>Стильный и современный дизайн</p>
+                        <p>Хостинг в подарок</p> <br>
+                        <p>Одна страница</p><br>
                         <p>And dives into the morning light</p>
                     </div>
                     <a href="#">View more</a>
@@ -36,13 +41,12 @@ $this->title = 'My Yii Application';
                 <figcaption>
                     <h2>Сайт <span>визитка</span></h2>
                     <div>
-                        <p>Julia dances in the deep dark</p>
+                        <p>До 6 страниц</p>
                         <p>She loves the smell of the ocean</p>
                         <p>And dives into the morning light</p>
                     </div>
                     <a href="#">View more</a>
                 </figcaption>
-
             </figure>
             <figure class="effect-julia">
                 <img src="../images/e-shop.jpg" alt="img22"/>
@@ -69,6 +73,14 @@ $this->title = 'My Yii Application';
                 </figcaption>
             </figure>
         </div>
+    </div>
+    <div class="text-center">
+        <p style="color: white;">
+            * Цены указанные выше являются начальными, окончательная цена будет названа после согласования требований.
+        </p>
+    </div>
+    <div class="text-center">
+        <h1 style="color: white">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h1>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОРТФОЛИО</h1></div>
     <div class="container-fluid">
