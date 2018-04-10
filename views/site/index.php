@@ -9,10 +9,10 @@ use yii\captcha\Captcha;
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
-    <div class="container-fluid" style="height: 100vh; background-image: url('https://www.wylab.net/wp-content/uploads/2017/04/informatica.jpg'); color: #ffffff">
-       <div style="padding-top: 15%">
-        <h1 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 100px">INITIUM</h1>
-        <h2 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 65px"> НАЧАЛО ВАШЕГО ПУТИ В ВЕБ-ПРОСТРАНСТВЕ </h2>
+    <div class="container-fluid" style="height: 100vh; background-image: url('https://www.wylab.net/wp-content/uploads/2017/04/informatica.jpg'); background-attachment: fixed; color: #ffffff;">
+       <div style="margin-top: 15%;  background: rgba(0, 0, 0, 0.5);">
+        <h1 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 100px;">INITIUM</h1>
+        <h2 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 65px;"> НАЧАЛО ВАШЕГО ПУТИ В ВЕБ-ПРОСТРАНСТВЕ </h2>
        </div>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">НАШИ УСЛУГИ</h1></div>
