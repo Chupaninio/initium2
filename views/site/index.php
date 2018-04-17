@@ -121,7 +121,34 @@ $this->title = 'My Yii Application';
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОЧЕМУ МЫ?</h1></div>
     <div class="container-fluid" style="height: 90vh;">
-
+        <div class="row" style="color: azure; padding-top: 15px;">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 text-center" style="border-right: 2px azure solid;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero earum deserunt, dolor tempora nemo consectetur, ex impedit. Doloremque, eos, ratione. Culpa labore magnam, amet soluta voluptas, dignissimos unde temporibus doloribus!</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero earum deserunt, dolor tempora nemo consectetur, ex impedit. Doloremque, eos, ratione. Culpa labore magnam, amet soluta voluptas, dignissimos unde temporibus doloribus!</p>
+            </div>
+<!--            <div class="col-md-2"></div>-->
+            <div class="col-md-4 text-center" >
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto placeat, ducimus at libero fugiat assumenda vitae, minus. Praesentium deserunt sit in soluta ullam ducimus repudiandae, saepe illum id, sed quibusdam.</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto placeat, ducimus at libero fugiat assumenda vitae, minus. Praesentium deserunt sit in soluta ullam ducimus repudiandae, saepe illum id, sed quibusdam.</p>
+            </div>
+            <div class="col-md-2"></div>  
+        </div>
+<!--
+        <div class="row" style="color: azure; padding-top: 15px;">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 text-center" style="border-right: 2px azure solid;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero earum deserunt, dolor tempora nemo consectetur, ex impedit. Doloremque, eos, ratione. Culpa labore magnam, amet soluta voluptas, dignissimos unde temporibus doloribus!</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto placeat, ducimus at libero fugiat assumenda vitae, minus. Praesentium deserunt sit in soluta ullam ducimus repudiandae, saepe illum id, sed quibusdam.</p>
+            </div>
+            <div class="col-md-2"></div>  
+        </div>
+-->
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">КОНТАКТЫ</h1></div>
     <div class="container-fluid">
