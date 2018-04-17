@@ -11,8 +11,8 @@ $this->title = 'My Yii Application';
 <div class="site-index">
     <div class="container-fluid" style="height: 100vh; background-image: url('https://www.wylab.net/wp-content/uploads/2017/04/informatica.jpg'); background-attachment: fixed; color: #ffffff;">
        <div style="margin-top: 15%;  background: rgba(0, 0, 0, 0.5);">
-        <h1 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 100px;">INITIUM</h1>
-        <h2 style="text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 65px;"> НАЧАЛО ВАШЕГО ПУТИ В ВЕБ-ПРОСТРАНСТВЕ </h2>
+        <h1 class="main-title1">INITIUM</h1>
+        <h2 class="main-title2"> НАЧАЛО ВАШЕГО ПУТИ В ВЕБ-ПРОСТРАНСТВЕ </h2>
        </div>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">НАШИ УСЛУГИ</h1></div>
@@ -29,11 +29,9 @@ $this->title = 'My Yii Application';
                     <h2>Landing <span>page</span></h2>
                     <div>
                         <p>Стильный и современный дизайн</p>
-                        <p>Хостинг в подарок</p> <br>
-                        <p>Одна страница</p><br>
-                        <p>And dives into the morning light</p>
+                        <p>Одностраничный сайт, для превлечения<br> целевой аудитории</p> <br>
+                        <p>Хостинг в подарок</p><br>
                     </div>
-                    <a href="#">View more</a>
                 </figcaption>
             </figure>
             <figure class="effect-julia">
@@ -41,11 +39,22 @@ $this->title = 'My Yii Application';
                 <figcaption>
                     <h2>Сайт <span>визитка</span></h2>
                     <div>
-                        <p>До 6 страниц</p>
+                        <p>Стильный и современный дизайн</p>
+                        <p>Сайт, содержащий до 6 страниц</p>
                         <p>She loves the smell of the ocean</p>
                         <p>And dives into the morning light</p>
                     </div>
-                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-julia">
+                <img src="../images/e-shop.jpg" alt="img22"/>
+                <figcaption>
+                    <h2>Корпоративный <span>сайт</span></h2>
+                    <div>
+                        <p>Julia dances in the deep dark</p>
+                        <p>She loves the smell of the ocean</p>
+                        <p>And dives into the morning light</p>
+                    </div>
                 </figcaption>
             </figure>
             <figure class="effect-julia">
@@ -57,19 +66,6 @@ $this->title = 'My Yii Application';
                         <p>She loves the smell of the ocean</p>
                         <p>And dives into the morning light</p>
                     </div>
-                    <a href="#">View more</a>
-                </figcaption>
-            </figure>
-            <figure class="effect-julia">
-                <img src="img/22.jpg" alt="img22"/>
-                <figcaption>
-                    <h2>Passionate <span>Julia</span></h2>
-                    <div>
-                        <p>Julia dances in the deep dark</p>
-                        <p>She loves the smell of the ocean</p>
-                        <p>And dives into the morning light</p>
-                    </div>
-                    <a href="#">View more</a>
                 </figcaption>
             </figure>
         </div>
@@ -84,7 +80,7 @@ $this->title = 'My Yii Application';
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОРТФОЛИО</h1></div>
     <div class="container-fluid">
-       <div class="row" style="margin-left: 30px">
+       <div class="porfolio-block">
            <div class="col-md-4">
                <div class="grid">
                    <figure class="effect-sadie">
@@ -92,7 +88,7 @@ $this->title = 'My Yii Application';
                        <figcaption>
                            <h2>Atlant</h2>
                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
-                           <a href="#">View more</a>
+                           <a href="https://avtoatlant.ru/">View more</a>
                        </figcaption>
                    </figure>
                 </div>
@@ -104,7 +100,7 @@ $this->title = 'My Yii Application';
                        <figcaption>
                            <h2>PSGroup</h2>
                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
-                           <a href="#">View more</a>
+                           <a href="https://psgroup.moscow/">View more</a>
                        </figcaption>
                    </figure>
                </div>
@@ -116,23 +112,19 @@ $this->title = 'My Yii Application';
                        <figcaption>
                            <h2>Starlinetelecom</h2>
                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
-                           <a href="#">View more</a>
+                           <a href="http://starlinetele.com/">View more</a>
                        </figcaption>
                    </figure>
                </div>
            </div>
        </div>
     </div>
-    <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">О НАС</h1></div>
-    <div class="container-fluid" style="height: 90vh;">
-
-    </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОЧЕМУ МЫ?</h1></div>
     <div class="container-fluid" style="height: 90vh;">
 
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">КОНТАКТЫ</h1></div>
-    <div class="container-fluid" style="color: #5ff9fc">
+    <div class="container-fluid">
             <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
 
                 <div class="alert alert-success">
@@ -152,12 +144,12 @@ $this->title = 'My Yii Application';
 
             <?php else: ?>
 
-                <p>
+                <p style="color: white;">
                     Если у Вас имеются вопросы, Вы можете связаться с Нами заполнив форму ниже.
                 </p>
 
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" style="color: #5ff9fc">
 
                         <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
@@ -179,6 +171,19 @@ $this->title = 'My Yii Application';
 
                         <?php ActiveForm::end(); ?>
 
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="text-center" style="color:white"><h1>Контактные данные</h1></div>
+
+                        <div class="social-block">
+                            <ul>
+                                <li class="facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+                                <li class="twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+                                <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+                                <li class="google"><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+                                <li class="whatsapp"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 

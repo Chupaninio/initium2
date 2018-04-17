@@ -15,6 +15,10 @@ body {
 .wrap > .container-fluid {
     padding: 50px 0px 20px;
     background-color: rgba(43, 0, 42, 0.85);
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer {
@@ -83,7 +87,19 @@ a.desc:after {
 .grid-view th {
     white-space: nowrap;
 }
-
+.main-title1{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100px;
+}
+.main-title2{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 65px;
+}
+.porfolio-block{
+    margin-left: 30px
+}
 .hint-block {
     display: block;
     margin-top: 5px;
@@ -110,6 +126,19 @@ a.desc:after {
         text-align: left;
         width: 100%;
         padding: 10px 15px;
+    }
+    .main-title1{
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 70px;
+    }
+    .main-title2{
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 42px;
+    }
+    .porfolio-block{
+        margin-left: 0px;
     }
 }
 
