@@ -26,6 +26,8 @@ class AppAsset extends AssetBundle
         'css/hover/hover2.css',
         'css/hover/normalize.css',
         'css/totop.css',
+        'css/how.css',
+        'css/card.css',
         'css/social/style.css',
     ];
     public $js = [

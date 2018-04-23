@@ -15,7 +15,7 @@ body {
 .wrap > .container-fluid {
     padding: 50px 0px 20px;
     background-color: rgba(43, 0, 42, 0.85);
-    background-image: url('../images/bg.jpg');
+    background-image: url('https://livewallpaper.info/wp-content/uploads/2017/08/Purple-Galaxy-wallpaper-wp60011193.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -90,7 +90,7 @@ a.desc:after {
 .main-title1{
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 100px;
+    font-size: 120px;
 }
 .main-title2{
     text-align: center;
@@ -115,6 +115,11 @@ a.desc:after {
 }
 
 /* align the logout "link" (button in form) of the navbar */
+.navbar{
+    height: 80px;
+    background-image: url('../images/nav.jpg');
+    background-position: left;
+}
 .nav li > form > button.logout {
     padding: 15px;
     border: none;

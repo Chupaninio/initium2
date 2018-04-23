@@ -12,6 +12,7 @@ it should always be at the center of the browser */
 
 /* Style the Un-order list by setting its list-style to none */
 .social-block ul {
+  color: white;
   list-style: none;
 }
 
@@ -61,7 +62,7 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-.social-block ul li:hover .fa-twitter {
+.social-block ul li:hover .fa-vk {
   color: #00aced;
   text-shadow: 0 0 15px #00aced;
   transition: all 0.5s ease;
