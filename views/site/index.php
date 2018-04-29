@@ -51,10 +51,10 @@ $this->title = 'My Yii Application';
                 <figcaption>
                     <h2>Корпоративный <span>сайт</span></h2>
                     <div>
+                        <p>Стильный и современный дизайн</p><br>
                         <p>Сайт позволит в полной мере <br>отобразить имидж компании</p>
                         <p>Продвижение товаров и услуг</p>
                         <p>Широкий функционал для работы<br> с клиентами</p>
-                        <p>And dives into the morning light</p>
                     </div>
                 </figcaption>
             </figure>
@@ -63,8 +63,8 @@ $this->title = 'My Yii Application';
                 <figcaption>
                     <h2>Интернет <span>магазин</span></h2>
                     <div>
-                        <p>Julia dances in the deep dark</p>
-                        <p>She loves the smell of the ocean</p>
+                        <p>Умный поиск</p>
+                        <p>Гибкая настройка цен</p>
                         <p>And dives into the morning light</p>
                     </div>
                 </figcaption>
@@ -80,35 +80,34 @@ $this->title = 'My Yii Application';
         <div class="container">
             <div class="row text-center">
                 <div class="how-it-works-heading">
-                    <h2 class="section-title">Выполнение заказа состоит из следующих этапов</h2>
+                    <h2 class="section-title" style="color: white">Выполнение заказа состоит из следующих этапов</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="color: white">
                 <div class="col-md-12 board">
-                    <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
                     <div class="board-inner">
                         <ul class="nav nav-tabs" id="myTab">
                             <div class="liner"></div>
                             <li class="active">
-                                <a href="#home" aria-controls="home" role="tab" data-toggle="tab" title="User Experience">
+                                <a href="#home" aria-controls="home" role="tab" data-toggle="tab" title="Согласование">
                       <span class="round-tabs one">
                               <i class="icon icon-profile-male"></i>
                       </span>
                                 </a></li>
 
-                            <li><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" title="Sketch">
+                            <li><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" title="Разработка">
                      <span class="round-tabs two">
                          <i class="icon icon-pencil"></i>
                      </span>
                                 </a>
                             </li>
-                            <li><a href="#prototyping" aria-controls="prototyping" role="tab" data-toggle="tab" title="Prototyping">
+                            <li><a href="#prototyping" aria-controls="prototyping" role="tab" data-toggle="tab" title="Тестирование">
                      <span class="round-tabs three">
                           <i class="icon icon-layers"></i>
                      </span> </a>
                             </li>
 
-                            <li><a href="#uidesign" aria-controls="uidesign" role="tab" data-toggle="tab" title="UI Design">
+                            <li><a href="#uidesign" aria-controls="uidesign" role="tab" data-toggle="tab" title="Передача сайта">
                          <span class="round-tabs four">
                               <i class="icon icon-aperture"></i>
                          </span>
@@ -140,13 +139,13 @@ $this->title = 'My Yii Application';
                         <div class="tab-pane fade" id="prototyping">
                             <h3 class="head text-center">Тестирование</h3>
                             <p class="narrow text-center">
-                                Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                                Обязательным пунктом при выполнение работы является тестирование продукта на наличие ошибок и работоспособность. Мы заботимся о качестве проделанной работы, поэтому готовим продукт к передаче в лучшем виде, отшлифовывая его до полной готовноси к запуску в продакшн!
                             </p>
                         </div>
                         <div class="tab-pane fade" id="uidesign">
                             <h3 class="head text-center">Передача сайта</h3>
                             <p class="narrow text-center">
-                                Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                                Завершающим этапом является передача продукта заказчику. Вами производится проверка на наличе всех необходимых деталей на сайте и производятся окончательные правки, после Вашего согласия и оплаты, сайт передаётся удобным для Вас способом.
                             </p>
                         </div>
                         <div class="tab-pane fade" id="doner">
@@ -155,7 +154,7 @@ $this->title = 'My Yii Application';
                             </div>
                             <h3 class="head text-center">Development</h3>
                             <p class="narrow text-center">
-                                Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                               Завершающим этапом является передача продукта заказчику. Вами производится проверка на наличе всех необходимых деталей на сайте, после Вашего согласия и оплаты, сайт передаётся удобным для Вас способом.
                             </p>
                         </div>
                         <div class="clearfix"></div>
