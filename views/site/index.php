@@ -427,7 +427,7 @@ $this->title = 'My Yii Application';
 
                         <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
-                        <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
+                        <?= $form->field($model, 'name')->textInput(['autofocus' => false]) ?>
 
                         <?= $form->field($model, 'email') ?>
 
