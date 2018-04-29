@@ -121,9 +121,8 @@ $this->title = 'My Yii Application';
 
                         </ul></div>
 
-                    <div class="tab-content">
+                    <div class="tab-content opacback">
                         <div class="tab-pane fade in active" id="home">
-
                             <h3 class="head text-center">Согласование</h3>
                             <p class="narrow text-center">
                                 Вы предоставляете Нам требования того, каким бы вы хотели видеть сайт, после чего Нами согласно Вашим требованиям будет составлено техническое задание. Согласовав с Вами техническое задание мы готовы приступить к работе!

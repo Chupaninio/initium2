@@ -172,3 +172,18 @@ a.desc:after {
     text-decoration: underline;
 }
 
+@media(max-width: 849px) {
+    .navbar-nav {
+    font-size: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar-nav {
+    font-size: 25px;
+    }
+}
+
+.opacback{
+    background: rgba(0, 0, 0, 0.5);
+}
