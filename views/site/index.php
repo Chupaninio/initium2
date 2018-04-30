@@ -16,7 +16,8 @@ $this->title = 'My Yii Application';
        </div>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">НАШИ УСЛУГИ</h1></div>
-    <div class="container-fluid">
+    <br>
+    <div class="container opacback">
         <div class="text-center">
             <p style="color: white;">
                 Мы предоставляем услуги по разработке сайтов различной степени сложности. Воспользовавшись нашими услугами, Вы обеспечите себе качественно выполненный сайт в поставленный срок.
@@ -69,15 +70,16 @@ $this->title = 'My Yii Application';
                     </div>
                 </figcaption>
             </figure>
+            <div class="text-center">
+                <p style="color: white">
+                    * Цены указанные выше являются начальными, окончательная цена будет названа после согласования требований.
+                </p>
+            </div>
         </div>
     </div>
-    <div class="text-center">
-        <p style="color: white;">
-            * Цены указанные выше являются начальными, окончательная цена будет названа после согласования требований.
-        </p>
-    </div>
+    <br>
     <section  class="section how-it-works" id="how-it-works">
-        <div class="container">
+        <div class="container opacback">
             <div class="row text-center">
                 <div class="how-it-works-heading">
                     <h2 class="section-title" style="color: white">Выполнение заказа состоит из следующих этапов</h2>
@@ -121,7 +123,7 @@ $this->title = 'My Yii Application';
 
                         </ul></div>
 
-                    <div class="tab-content opacback">
+                    <div class="tab-content">
                         <div class="tab-pane fade in active" id="home">
                             <h3 class="head text-center">Согласование</h3>
                             <p class="narrow text-center">
@@ -163,6 +165,7 @@ $this->title = 'My Yii Application';
             </div>
         </div>
     </section>
+    <div class="container opacback">
     <div class="text-center">
         <h1 style="color: white">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h1>
         <div class="row">
@@ -309,8 +312,12 @@ $this->title = 'My Yii Application';
                 </div>
     </div>
     </div>
+        <br>
+    </div>
+    <br>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОРТФОЛИО</h1></div>
-    <div class="container-fluid">
+   <br>
+    <div class="container opacback">
        <div class="porfolio-block">
            <div class="col-md-4">
                <div class="grid">
@@ -362,8 +369,10 @@ $this->title = 'My Yii Application';
            </div>
        </div>
     </div>
+    <br>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОЧЕМУ МЫ?</h1></div>
-    <div class="container-fluid">
+   <br>
+    <div class="container opacback">
         <div class="row" style="color: azure; padding-top: 15px;">
             <div class="col-md-2"></div>
             <div class="col-md-4 text-center" style="border-right: 2px azure solid;">
@@ -373,7 +382,6 @@ $this->title = 'My Yii Application';
                 <i class="fas fa-paint-brush fa-4x"></i>
                 <h2>Креативный подход</h2>
             </div>
-<!--            <div class="col-md-2"></div>-->
             <div class="col-md-4 text-center" >
                 <i class="far fa-comments fa-4x"></i>
                 <h2>Понимание клиента</h2>
@@ -381,22 +389,10 @@ $this->title = 'My Yii Application';
                 <i class="far fa-clock fa-4x"></i>
                 <h2>Всегда в срок</h2>
             </div>
-            <div class="col-md-2"></div>  
-        </div>
-<!--
-        <div class="row" style="color: azure; padding-top: 15px;">
             <div class="col-md-2"></div>
-            <div class="col-md-4 text-center" style="border-right: 2px azure solid;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero earum deserunt, dolor tempora nemo consectetur, ex impedit. Doloremque, eos, ratione. Culpa labore magnam, amet soluta voluptas, dignissimos unde temporibus doloribus!</p>
-            </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-4 text-center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto placeat, ducimus at libero fugiat assumenda vitae, minus. Praesentium deserunt sit in soluta ullam ducimus repudiandae, saepe illum id, sed quibusdam.</p>
-            </div>
-            <div class="col-md-2"></div>  
         </div>
--->
     </div>
+    <Br>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">КОНТАКТЫ</h1></div>
     <div class="container-fluid">
             <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
@@ -418,12 +414,13 @@ $this->title = 'My Yii Application';
 
             <?php else: ?>
 
-                <p style="color: white;">
-                    Если у Вас имеются вопросы, Вы можете связаться с Нами заполнив форму ниже.
-                </p>
 
                 <div class="row">
-                    <div class="col-lg-5" style="color: #5ff9fc">
+                    <br>
+                    <div class="col-lg-5 opacback" style="margin-left: 20px;color: white">
+                        <p style="text-align: center">
+                            Если у Вас имеются вопросы, Вы можете связаться с Нами заполнив форму ниже.
+                        </p>
 
                         <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
@@ -446,7 +443,7 @@ $this->title = 'My Yii Application';
                         <?php ActiveForm::end(); ?>
 
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 opacback" style="margin-left: 100px">
                         <div class="text-center" style="color:white"><h1>Контактные данные</h1></div>
                         <div class="social-block">
                             <ul>
