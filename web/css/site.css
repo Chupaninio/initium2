@@ -140,6 +140,7 @@ a.desc:after {
     margin-top: 15px;
     font-size: 25px;
     background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .navbar-inverse .navbar-nav > li > a {

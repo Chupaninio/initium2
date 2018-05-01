@@ -37,13 +37,21 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top'
         ],
     ]);
+
+
+//(function(){$("html, body").animate({scrollTop: document.location.href=document.location.href + "#metka-1"}, 1500)})();
+//             ("html, body").animate({scrollTop: "#yak"}, 1000);
+//document.location.href=document.location.href + '#metka-1'  
+
+
+
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Главная', 'url' => ['/site/index']],
-            ['label' => 'Услуги', 'url' => ['/site/about']],
-            ['label' => 'Порфтолио', 'url' => ['/site/about']],
-            ['label' => 'Контакты', 'url' => ['/site/contact']],
+            ['label' => 'Услуги', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#uslugi").offset().top}, 1500)})();'],],
+            ['label' => 'Портфолио', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#portfolio").offset().top}, 1500)})();'],],
+            ['label' => 'Достоинства', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#dostoinstva").offset().top}, 1500)})();'],],
+            ['label' => 'Контакты', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#kontakty").offset().top}, 1500)})();'],],
         ],
     ]);
     NavBar::end();
@@ -91,4 +99,7 @@ AppAsset::register($this);
 
         });
     });
+</script>
+<script>
+    ['label' => 'Главная', 'url' => false, 'options' => [ 'onclick' => '(function(){$("html, body").animate({scrollTop: "2920px"}, 1500) })();'],],
 </script>

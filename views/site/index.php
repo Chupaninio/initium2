@@ -12,7 +12,7 @@ $this->title = 'My Yii Application';
     <div class="container-fluid" style="height: 100vh; background-image: url('https://www.wylab.net/wp-content/uploads/2017/04/informatica.jpg'); background-attachment: fixed; color: #ffffff;">
        <div style="margin-top: 15%;  background: rgba(0, 0, 0, 0.5);">
         <h1 class="main-title1">INITIUM</h1>
-        <h2 class="main-title2"> НАЧАЛО ВАШЕГО ПУТИ В ВЕБ-ПРОСТРАНСТВЕ </h2>
+        <h2 class="main-title2" id="uslugi">НАЧАЛО ВАШЕГО ПУТИ В ВЕБ-ПРОСТРАНСТВЕ</h2>
        </div>
     </div>
     <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">НАШИ УСЛУГИ</h1></div>
@@ -307,7 +307,7 @@ $this->title = 'My Yii Application';
                 </svg>
 
             </div>
-            <p>Human Resources</p>
+            <p id="portfolio">Human Resources</p>
         </a>
                 </div>
     </div>
@@ -315,7 +315,7 @@ $this->title = 'My Yii Application';
         <br>
     </div>
     <br>
-    <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc"> <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОРТФОЛИО</h1></div>
+    <div class="container-fluid" style="background: linear-gradient(to right, #412cad, #db31cf);color: #5ff9fc" > <h1 style="text-align: center; font-size: 40px;font-family: 'PT Sans Caption', sans-serif;">ПОРТФОЛИО</h1></div>
    <br>
     <div class="container opacback">
        <div class="porfolio-block">
@@ -362,7 +362,7 @@ $this->title = 'My Yii Application';
                        <figcaption>
                            <h2>changeulife</h2>
                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
-                           <a href="https://changeulife.ru/">View more</a>
+                           <a href="https://changeulife.ru/" id="dostoinstva">View more</a>
                        </figcaption>
                    </figure>
                </div>
@@ -389,7 +389,7 @@ $this->title = 'My Yii Application';
                 <i class="far fa-clock fa-4x"></i>
                 <h2>Всегда в срок</h2>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-2" id="kontakty"></div>
         </div>
     </div>
     <Br>
