@@ -48,10 +48,10 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Услуги', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#uslugi").offset().top}, 1500)})();'],],
-            ['label' => 'Портфолио', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#portfolio").offset().top}, 1500)})();'],],
-            ['label' => 'Достоинства', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#dostoinstva").offset().top}, 1500)})();'],],
-            ['label' => 'Контакты', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#kontakty").offset().top}, 1500)})();'],],
+            ['label' => 'Услуги', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#uslugi").offset().top}, 800)})();'],],
+            ['label' => 'Портфолио', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#portfolio").offset().top}, 800)})();'],],
+            ['label' => 'Достоинства', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#dostoinstva").offset().top}, 800)})();'],],
+            ['label' => 'Контакты', 'url' => false, 'options' => ['onclick' => '(function(){$("html, body").animate({scrollTop: $("#kontakty").offset().top}, 800)})();'],],
         ],
     ]);
     NavBar::end();

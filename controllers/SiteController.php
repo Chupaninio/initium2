@@ -65,7 +65,6 @@ class SiteController extends Controller
             $model = new ContactForm();
             if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
                 Yii::$app->session->setFlash('contactFormSubmitted');
-
                 return $this->refresh();
             }
             return $this->render('index', [
@@ -101,12 +100,12 @@ class SiteController extends Controller
      *
      * @return Response
      */
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }
+//    public function actionLogout()
+//    {
+//        Yii::$app->user->logout();
+//
+//        return $this->goHome();
+//    }
 
     /**
      * Displays contact page.

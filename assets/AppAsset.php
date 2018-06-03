@@ -26,12 +26,14 @@ class AppAsset extends AssetBundle
         'css/hover/hover2.css',
         'css/hover/normalize.css',
         'css/totop.css',
-        'css/how.css',
         'css/card.css',
         'css/social/style.css',
+        'css/tab.css',
+        'css/how.css',
     ];
     public $js = [
         'js/fm.revealator.jquery.min.js',
+        'js/tab.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

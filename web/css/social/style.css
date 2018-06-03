@@ -8,6 +8,7 @@ it should always be at the center of the browser */
   /*left: 50%;*/
   /*transform: translate(-50%, -50%);*/
   width: 550px;
+  margin-left: 35px;
 }
 
 /* Style the Un-order list by setting its list-style to none */

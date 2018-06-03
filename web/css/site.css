@@ -125,8 +125,6 @@ a.desc:after {
     border: none;
 }
 
-
-
 .nav > li > form > button.logout:focus,
 .nav > li > form > button.logout:hover {
     text-decoration: none;
@@ -141,6 +139,7 @@ a.desc:after {
     font-size: 25px;
     background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    margin-right: 7px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -159,6 +158,12 @@ a.desc:after {
 
 .navbar-toggle{
     margin-bottom: 20px;
+}
+.contact-block{
+    margin-left: 50px;
+}
+.form-control{
+
 }
 
 @media(max-width: 849px) {
@@ -193,5 +198,9 @@ a.desc:after {
     .navbar-toggle{
         margin-top: 25px;
     }
+    .contact-block{
+        margin-left: 0px;
+    }
+
 }
 
